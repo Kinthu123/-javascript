@@ -1,0 +1,68 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial Black', sans-serif;
+    background-color: #1b1b1b;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: #ff6f00;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+div {
+    margin-bottom: 10px;
+    color: #b0b0b0;
+    font-size: 18px;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #ff6f00;
+    color: #1b1b1b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+#sigmaQuote {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ff6f00;
+    font-style: italic;
+}
+
+#sigmaImage {
+    display: none;
+    margin-top: 20px;
+    max-width: 80%;
+    height: auto;
+    border: 3px solid #ff6f00;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s;
+}
+
+#sigmaImage:hover {
+    transform: scale(1.05);
+}

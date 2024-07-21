@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temp1.css">
+</head>
+<body>
+    <form>
+        <h1>Temperature convetor</h1>
+        <input type="number" id="textbox" value="0"><br/>
+        
+        <input type="radio" id="toF" name="unit">
+        <label for="toF">Celsius to Fahrenheit</label><br/>
+
+        <input type="radio" id="toC" name="unit">
+        <label for="toC">Fahrenheit to Celsius</label><br/>
+
+        <button type="button" onclick="convert()">Sumit</button>
+        <p id="result"></p>
+    </form>
+    <script src="temp1.js"></script>
+</body>
+</html>
