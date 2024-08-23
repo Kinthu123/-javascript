@@ -1,0 +1,61 @@
+body {
+    font-family: 'Arial Black', 'Impact', sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#restart{
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button {
+    background-color: #512cb6;
+    border: none;
+    color: white;
+    padding: 50px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 4rem;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:#45a049;
+    transform: scale(1.1);
+}
+
+#PResult, #CResult {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+#resultDisplay {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}

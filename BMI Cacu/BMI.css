@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Dark gray background for the gym theme */
+    color: #ffffff; /* Light text color for contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #f36f6f; /* Vibrant accent color (e.g., bright red or orange) */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+form {
+    background-color: #333333; /* Dark background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    max-width: 100%; /* Ensure the form does not exceed the viewport width */
+    box-sizing: border-box; /* Include padding and border in the element’s total width and height */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f36f6f; /* Accent color for labels */
+}
+
+input {
+    width: calc(100% - 22px); /* Adjust width to fit within the form padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #444444; /* Darker border to match the theme */
+    border-radius: 5px;
+    background-color: #555555; /* Slightly lighter dark background for inputs */
+    color: #ffffff; /* Light text color inside inputs */
+    box-sizing: border-box; /* Ensure padding and border are included in the element’s width */
+}
+
+button {
+    width: calc(100% - 22px); /* Adjust width to fit within the form padding */
+    padding: 10px;
+    background-color: #f36f6f; /* Accent color for button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding is included in the element’s width */
+}
+
+button:hover {
+    background-color: #e55f5f; /* Slightly darker shade for hover effect */
+}
+
+p#total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #f36f6f; /* Accent color for result text */
+}

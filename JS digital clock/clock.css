@@ -1,0 +1,33 @@
+/* Define dark background and vibrant accent color */
+:root {
+    --background-color: #121212; /* Dark background */
+    --accent-color: #ff6b6b; /* Vibrant red accent */
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-color);
+    font-family: 'Arial', sans-serif;
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+#clock {
+    font-size: 5rem;
+    color: var(--accent-color);
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px var(--accent-color);
+}
