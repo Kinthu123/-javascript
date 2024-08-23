@@ -1,4 +1,4 @@
-const answer= Math.floor((Math.random()* 11));
+const answer= Math.floor((Math.random()* 10)+1);
 
 let guesses = 0;
 

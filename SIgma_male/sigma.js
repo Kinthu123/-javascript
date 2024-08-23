@@ -9,10 +9,16 @@ const quotes = [
     "Success is the best revenge."
 ];
 
+let sum=0;
+const images =[];
+
 
 
 function generateSigmaQuote(){
     const RandomQuote = Math.floor(Math.random() *quotes.length);
     const quote = quotes[RandomQuote];
     document.getElementById("sigmaQuote").innerHTML = quote;
+
+    
+
 };
